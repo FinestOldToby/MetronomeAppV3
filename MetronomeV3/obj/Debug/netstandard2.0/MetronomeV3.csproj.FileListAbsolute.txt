@@ -1,0 +1,13 @@
+C:\Users\Luciferus\MetronomeV3\MetronomeV3\bin\Debug\netstandard2.0\MetronomeV3.deps.json
+C:\Users\Luciferus\MetronomeV3\MetronomeV3\bin\Debug\netstandard2.0\MetronomeV3.dll
+C:\Users\Luciferus\MetronomeV3\MetronomeV3\bin\Debug\netstandard2.0\ref\MetronomeV3.dll
+C:\Users\Luciferus\MetronomeV3\MetronomeV3\bin\Debug\netstandard2.0\MetronomeV3.pdb
+C:\Users\Luciferus\MetronomeV3\MetronomeV3\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Luciferus\MetronomeV3\MetronomeV3\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Luciferus\MetronomeV3\MetronomeV3\obj\Debug\netstandard2.0\MetronomeV3.AssemblyInfoInputs.cache
+C:\Users\Luciferus\MetronomeV3\MetronomeV3\obj\Debug\netstandard2.0\MetronomeV3.AssemblyInfo.cs
+C:\Users\Luciferus\MetronomeV3\MetronomeV3\obj\Debug\netstandard2.0\MetronomeV3.csproj.CoreCompileInputs.cache
+C:\Users\Luciferus\MetronomeV3\MetronomeV3\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Luciferus\MetronomeV3\MetronomeV3\obj\Debug\netstandard2.0\MetronomeV3.dll
+C:\Users\Luciferus\MetronomeV3\MetronomeV3\obj\Debug\netstandard2.0\ref\MetronomeV3.dll
+C:\Users\Luciferus\MetronomeV3\MetronomeV3\obj\Debug\netstandard2.0\MetronomeV3.pdb
