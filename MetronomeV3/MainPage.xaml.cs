@@ -8,14 +8,29 @@ using Xamarin.Forms;
 
 namespace MetronomeV3
 {
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
-    [DesignTimeVisible(false)]
-    public partial class MainPage : ContentPage
+    public partial class MainPage : MasterDetailPage
     {
         public MainPage()
         {
+            //MainPage = new NavigationPage(new YourPageName()) { BarBackgroundColor = Color.FromHex("#0E547C"), BarTextColor = Color.White };
             InitializeComponent();
+            Detail = new NavigationPage(new Metronome());
+
+            IsPresented = false;
+
+        }
+
+        private void ReturnMetronome(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new Metronome());
+
+            IsPresented = false;
+        }
+
+        private void ReturnNotes(object sender, EventArgs e)
+        {
+            Detail = new NavigationPage(new Notes());
+            IsPresented = false;
         }
     }
 }

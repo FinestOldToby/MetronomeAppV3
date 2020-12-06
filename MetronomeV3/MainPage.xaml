@@ -1,80 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<MasterDetailPage  xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="MetronomeV3.MainPage">
 
-        <ContentPage.ToolbarItems>
-            <ToolbarItem Text="About" Priority="0" Order="Primary"/>
-        </ContentPage.ToolbarItems>
+    <MasterDetailPage.Master>
+        <ContentPage Title="Master">
+            <ContentPage.Content>
+                <StackLayout>
+                    <Button Text="Metronom" BackgroundColor="WhiteSmoke" Clicked="ReturnMetronome"></Button>
+                    <Button Text="Noty" BackgroundColor="WhiteSmoke" Clicked="ReturnNotes"></Button>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <ContentPage>
+            <ContentPage.Content>
+                <StackLayout>
+                   
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
 
-        <Grid RowSpacing="0" BackgroundColor="#354b69">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="60"/>
-                <RowDefinition Height="170"/>
-                <RowDefinition Height="160"/>
-                <RowDefinition Height="40"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-
-
-            <!-- header -->
-            <BoxView BackgroundColor="#436491" Grid.Row="0"/>
-            <Label Margin="20,0,0,0" FontAttributes="Bold" TextColor="White" FontSize="26" Text="Metronom" Grid.Row="0" HorizontalOptions="Start" VerticalOptions="Center" />
-
-            <Image Source="menu_icon.png" Grid.Row="0" Margin="0,0,20,0" HorizontalOptions="End"/>
-
-
-            <!-- beep boop circles -->
-            <BoxView Grid.Row="1"/>
-            <Grid Grid.Row="1" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="280">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="60"/>
-                </Grid.RowDefinitions>
-
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-
-                <Frame HeightRequest="50" WidthRequest="50" CornerRadius="25" HorizontalOptions="Start" VerticalOptions="Start" Margin="0" Padding="0" BackgroundColor="#51d6db" Grid.Row="0" Grid.Column="0"/>
-                <Frame HeightRequest="50" WidthRequest="50" CornerRadius="25" HorizontalOptions="Start" VerticalOptions="Start" Margin="0" Padding="0" BackgroundColor="#bdbdbd" Grid.Row="0" Grid.Column="1"/>
-                <Frame HeightRequest="50" WidthRequest="50" CornerRadius="25" HorizontalOptions="Start" VerticalOptions="Start" Margin="0" Padding="0" BackgroundColor="#bdbdbd" Grid.Row="0" Grid.Column="2"/>
-                <Frame HeightRequest="50" WidthRequest="50" CornerRadius="25" HorizontalOptions="Start" VerticalOptions="Start" Margin="0" Padding="0" BackgroundColor="#bdbdbd" Grid.Row="0" Grid.Column="3"/>
-            </Grid>
-
-            <!-- numbers -->
-            <BoxView Grid.Row="2"/>
-            <Label x:Name="sliderNumber" TextColor="White" FontSize="50" Text="250" Grid.Row="2" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Label Margin="0,110,0,0" TextColor="White" FontSize="18" Text="BPM" Grid.Row="2" HorizontalOptions="Center" VerticalOptions="Center" />
-            <!-- slider -->
-            <BoxView  Grid.Row="3"/>
-            <Slider VerticalOptions="Center" 
-                HorizontalOptions="Center" 
-                Grid.Row="3"
-                Maximum="400"
-                Minimum="1"  
-                WidthRequest="280"/>
-
-            <!-- play button -->
-            <BoxView Grid.Row="4"/>
-            <Button WidthRequest      ="70"
-                HeightRequest     ="70"
-                CornerRadius      ="10"
-                VerticalOptions   ="Center"
-                HorizontalOptions ="Center"
-                BackgroundColor   ="#3b9da1"
-                Grid.Row="4"
-                Text="PLAY"
-                FontSize="18"/>
-
-
-        </Grid>
-
-
-
-</ContentPage>
+</MasterDetailPage>
