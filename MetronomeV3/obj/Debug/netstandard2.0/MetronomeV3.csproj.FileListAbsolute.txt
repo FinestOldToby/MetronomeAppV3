@@ -27,3 +27,18 @@ C:\Users\Luciferus\MetronomeV3\MetronomeApp\MetronomeV3\obj\Debug\netstandard2.0
 C:\Users\Luciferus\MetronomeV3\MetronomeApp\MetronomeV3\obj\Debug\netstandard2.0\ref\MetronomeV3.dll
 C:\Users\Luciferus\MetronomeV3\MetronomeApp\MetronomeV3\obj\Debug\netstandard2.0\MetronomeV3.pdb
 C:\Users\Luciferus\MetronomeV3\MetronomeApp\MetronomeV3\obj\Debug\netstandard2.0\Metronome.xaml.g.cs
+D:\xamarin projects\MetronomeAppV3\MetronomeV3\obj\Debug\netstandard2.0\MetronomeV3.csprojAssemblyReference.cache
+D:\xamarin projects\MetronomeAppV3\MetronomeV3\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\xamarin projects\MetronomeAppV3\MetronomeV3\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\xamarin projects\MetronomeAppV3\MetronomeV3\obj\Debug\netstandard2.0\Metronome.xaml.g.cs
+D:\xamarin projects\MetronomeAppV3\MetronomeV3\obj\Debug\netstandard2.0\Notes.xaml.g.cs
+D:\xamarin projects\MetronomeAppV3\MetronomeV3\obj\Debug\netstandard2.0\MetronomeV3.AssemblyInfoInputs.cache
+D:\xamarin projects\MetronomeAppV3\MetronomeV3\obj\Debug\netstandard2.0\MetronomeV3.AssemblyInfo.cs
+D:\xamarin projects\MetronomeAppV3\MetronomeV3\obj\Debug\netstandard2.0\MetronomeV3.dll
+D:\xamarin projects\MetronomeAppV3\MetronomeV3\obj\Debug\netstandard2.0\ref\MetronomeV3.dll
+D:\xamarin projects\MetronomeAppV3\MetronomeV3\obj\Debug\netstandard2.0\MetronomeV3.pdb
+D:\xamarin projects\MetronomeAppV3\MetronomeV3\bin\Debug\netstandard2.0\MetronomeV3.deps.json
+D:\xamarin projects\MetronomeAppV3\MetronomeV3\bin\Debug\netstandard2.0\MetronomeV3.dll
+D:\xamarin projects\MetronomeAppV3\MetronomeV3\bin\Debug\netstandard2.0\ref\MetronomeV3.dll
+D:\xamarin projects\MetronomeAppV3\MetronomeV3\bin\Debug\netstandard2.0\MetronomeV3.pdb
+D:\xamarin projects\MetronomeAppV3\MetronomeV3\obj\Debug\netstandard2.0\XamlC.stamp

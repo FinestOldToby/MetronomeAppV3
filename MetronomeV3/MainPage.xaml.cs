@@ -15,7 +15,7 @@ namespace MetronomeV3
             //MainPage = new NavigationPage(new YourPageName()) { BarBackgroundColor = Color.FromHex("#0E547C"), BarTextColor = Color.White };
             InitializeComponent();
             Detail = new NavigationPage(new Metronome());
-
+            
             IsPresented = false;
 
         }

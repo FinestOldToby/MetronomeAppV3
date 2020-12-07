@@ -19,15 +19,6 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-
-        <!-- header 
-        <BoxView BackgroundColor="#436491" Grid.Row="0"/>
-        <Label Margin="20,0,0,0" FontAttributes="Bold" TextColor="White" FontSize="26" Text="Metronom" Grid.Row="0" HorizontalOptions="Start" VerticalOptions="Center" />
-
-        <Image Source="menu_icon.png" Grid.Row="0" Margin="0,0,20,0" HorizontalOptions="End"/>-->
-
-
-        <!-- beep boop circles -->
         <BoxView Grid.Row="0"/>
         <Grid Grid.Row="0" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="280">
             <Grid.RowDefinitions>
@@ -73,7 +64,7 @@
                 Grid.Row="3"
                 Text="PLAY"
                 FontSize="18"
-                Clicked="Button_Clicked"/>
+                Clicked="PlayButtonClicked"/>
 
 
     </Grid>

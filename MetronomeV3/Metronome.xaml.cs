@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Multimedia;
 
 namespace MetronomeV3
 {
@@ -14,6 +15,7 @@ namespace MetronomeV3
         public Metronome()
         {
             InitializeComponent();
+            
         }
 
         private void MainSliderChanged(object sender, ValueChangedEventArgs e)
@@ -22,9 +24,16 @@ namespace MetronomeV3
             sliderNumber.Text = ((int)Math.Round(MainSlider.Value)).ToString();
         }
 
-        private void PlayMetronome(object sender, EventArgs e)
+        private void PlayButtonClicked(object sender, EventArgs e)
         {
-
+            Console.WriteLine("pepa");
         }
+
+        //Returns one beat in milliseconds
+        private int ConvertBPMToMs(int BPM)
+        {
+            return 60000 / BPM;
+        }
+
     }
 }

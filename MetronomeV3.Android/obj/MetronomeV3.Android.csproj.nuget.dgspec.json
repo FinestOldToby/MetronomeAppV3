@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luciferus\\MetronomeV3\\MetronomeApp\\MetronomeV3.Android\\MetronomeV3.Android.csproj": {}
+    "D:\\xamarin projects\\MetronomeAppV3\\MetronomeV3.Android\\MetronomeV3.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luciferus\\MetronomeV3\\MetronomeApp\\MetronomeV3.Android\\MetronomeV3.Android.csproj": {
+    "D:\\xamarin projects\\MetronomeAppV3\\MetronomeV3.Android\\MetronomeV3.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luciferus\\MetronomeV3\\MetronomeApp\\MetronomeV3.Android\\MetronomeV3.Android.csproj",
+        "projectUniqueName": "D:\\xamarin projects\\MetronomeAppV3\\MetronomeV3.Android\\MetronomeV3.Android.csproj",
         "projectName": "MetronomeV3.Android",
-        "projectPath": "C:\\Users\\Luciferus\\MetronomeV3\\MetronomeApp\\MetronomeV3.Android\\MetronomeV3.Android.csproj",
-        "packagesPath": "C:\\Users\\Luciferus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luciferus\\MetronomeV3\\MetronomeApp\\MetronomeV3.Android\\obj\\",
+        "projectPath": "D:\\xamarin projects\\MetronomeAppV3\\MetronomeV3.Android\\MetronomeV3.Android.csproj",
+        "packagesPath": "C:\\Users\\mrako\\.nuget\\packages\\",
+        "outputPath": "D:\\xamarin projects\\MetronomeAppV3\\MetronomeV3.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Luciferus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mrako\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\Luciferus\\MetronomeV3\\MetronomeApp\\MetronomeV3\\MetronomeV3.csproj": {
-                "projectPath": "C:\\Users\\Luciferus\\MetronomeV3\\MetronomeApp\\MetronomeV3\\MetronomeV3.csproj"
+              "D:\\xamarin projects\\MetronomeAppV3\\MetronomeV3\\MetronomeV3.csproj": {
+                "projectPath": "D:\\xamarin projects\\MetronomeAppV3\\MetronomeV3\\MetronomeV3.csproj"
               }
             }
           }
@@ -54,21 +54,20 @@
         }
       }
     },
-    "C:\\Users\\Luciferus\\MetronomeV3\\MetronomeApp\\MetronomeV3\\MetronomeV3.csproj": {
+    "D:\\xamarin projects\\MetronomeAppV3\\MetronomeV3\\MetronomeV3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luciferus\\MetronomeV3\\MetronomeApp\\MetronomeV3\\MetronomeV3.csproj",
+        "projectUniqueName": "D:\\xamarin projects\\MetronomeAppV3\\MetronomeV3\\MetronomeV3.csproj",
         "projectName": "MetronomeV3",
-        "projectPath": "C:\\Users\\Luciferus\\MetronomeV3\\MetronomeApp\\MetronomeV3\\MetronomeV3.csproj",
-        "packagesPath": "C:\\Users\\Luciferus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luciferus\\MetronomeV3\\MetronomeApp\\MetronomeV3\\obj\\",
+        "projectPath": "D:\\xamarin projects\\MetronomeAppV3\\MetronomeV3\\MetronomeV3.csproj",
+        "packagesPath": "C:\\Users\\mrako\\.nuget\\packages\\",
+        "outputPath": "D:\\xamarin projects\\MetronomeAppV3\\MetronomeV3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Luciferus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mrako\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -118,7 +117,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
